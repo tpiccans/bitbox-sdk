@@ -16,7 +16,7 @@
     "test:integration:custom": "TEST=integration SERVER=custom mocha --timeout 30000 test/integration --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "build": "tsc",
-    "postinstall": "tsc"
+    "prepare": "npm run build"
   },
   "license": "MIT",
   "engines": {
