@@ -15,7 +15,8 @@
     "test:integration:stage": "TEST=integration SERVER=stage nyc --reporter=text mocha --timeout 30000 test/integration --exit",
     "test:integration:custom": "TEST=integration SERVER=custom mocha --timeout 30000 test/integration --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "build": "tsc"
+    "build": "tsc",
+    "install": "tsc"
   },
   "license": "MIT",
   "engines": {
