@@ -1,6 +1,6 @@
 {
   "name": "bitbox-sdk",
-  "version": "8.11.0",
+  "version": "8.11.1",
   "description": "BITBOX SDK for Bitcoin Cash",
   "author": "Gabriel Cardona <gabriel@bitcoin.com>",
   "contributors": [
@@ -45,7 +45,7 @@
     "bigi": "^1.4.2",
     "bip-schnorr": "^0.3.0",
     "bip21": "Bitcoin-com/bip21",
-    "bip32-utils": "Bitcoin-com/bip32-utils#0.13.1",
+    "bip32-utils": "tpiccans/bip32-utils#dev/update-node-v12",
     "bip38": "^2.0.2",
     "bip39": "^2.5.0",
     "bip66": "^1.1.5",
